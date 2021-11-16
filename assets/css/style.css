@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background: #352f5b;
+    color: #ffffff; 
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    max-width: 500px;
+    margin: 40px auto 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 100px;
+    max-width: 500px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 0;
+    font-size: 1.5rem; 
+}
+form input{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    outline: 0;
+}
+form button{
+    color: #d82092;
+    background: #ffffff;
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+    font-size: 2rem;
+    border: none;
+    outline: 0;    
+}
+form button:hover{
+    background: #d82092;
+    color: #ffffff;
+}
+main ul{
+    width: 466px;
+    padding: .6rem;
+    list-style-type: none;
+    margin-top: 10px;
+}
+main ul li{
+    display: flex;
+    align-items: center;    
+    background: #ffffff;
+    color: #000000;
+    font-size: 1.5rem;
+    margin-top: 7px;
+    position: relative;
+    padding: .3rem 0;
+}
+.trash, .check{
+    background: #d82092;
+    color: #ffffff;
+    border: none;
+    padding: .8rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.trash{
+    position: absolute;
+    right: 0;
+}
+.check{
+    margin: 0 10px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: #d82092;
+    position: fixed;
+    bottom: 0;
+}
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #ffffff;
+    background: #352f5b;
+    border-radius: 5px;
+}
+.checked{
+    text-decoration: line-through;
+}
